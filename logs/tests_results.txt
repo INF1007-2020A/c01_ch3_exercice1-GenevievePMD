@@ -8,8 +8,8 @@ Traceback (most recent call last):
   File "test_exercice.py", line 27, in test_square_root
     output_exo = list(map(exercice.square_root, self.numbers))
   File "/home/runner/work/c01_ch3_exercice1-GenevievePMD/c01_ch3_exercice1-GenevievePMD/exercice.py", line 7, in square_root
-    return square_rooted
-NameError: name 'square_rooted' is not defined
+    return math.sqrt()
+TypeError: sqrt() takes exactly one argument (0 given)
 
 ----------------------------------------------------------------------
 Ran 2 tests in 0.001s
